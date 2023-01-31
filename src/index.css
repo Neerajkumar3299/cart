@@ -1,0 +1,20 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif,verdana;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: white;
+}
+.loading{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.loading>img{
+  background-color: azure;
+}

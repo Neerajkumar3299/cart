@@ -1,0 +1,85 @@
+.nav{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: rgb(14, 14, 59);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px grey;
+}
+.header{
+    width: 30%;
+    /* border: 3px solid red; */
+}
+.header>h1{
+    text-align: right;
+    text-shadow: 2px 2px 5px grey;
+    font-size: 40px;
+    letter-spacing: 1.3px;
+}
+.header>h1>span{
+    color: rgb(11, 229, 240);
+}
+.cart{
+    width: 70%;
+    /* border: 3px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-icon-container{
+    /* border: 3px solid green; */
+    position: relative;
+}
+#cart-icon{
+    font-size: 40px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.amount-container{
+    /* border: 3px solid yellow; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    font-weight: bold;
+    top: -10px;
+    right: -10px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------ Media Query -------------------- */
+@media screen and (max-width:810px){
+    .header{
+        width: 50%;
+
+    }
+    .cart{
+        width: 50%;
+    }
+}
+@media screen and (max-width:520px) {
+    .header {
+        width: 65%;
+
+    }
+    .cart {
+        width: 35%;
+    }
+}
+@media screen and (max-width:410px) {
+    .header {
+        width: 80%;
+
+    }
+    .cart {
+        width: 20%;
+    }
+}
